@@ -1,0 +1,18 @@
+# Môi trường ảo và bộ nhớ đệm Python: KHÔNG đưa lên repository
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+
+# Nhật ký chạy pipeline
+logs/
+*.log
+
+# Cấu hình cục bộ và bí mật
+.env
+.streamlit/secrets.toml
